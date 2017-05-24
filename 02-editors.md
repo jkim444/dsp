@@ -76,7 +76,7 @@ print("This file was created by Reshama")
 3.  Create a file called `egg.py` using **emacs**, add a couple of lines of code, save and exit.
 
 Upload these 3 files to the [`editors`](editors/) folder.  
-> Files added to the folder `editors` folder.
+> Files added to the `editors` folder.
 
 ### Q2. Terminal Editor
 
