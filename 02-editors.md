@@ -82,8 +82,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> If I'd choose one, it may be vi/vim. For the past experience, that is the one I have been using so must be the most familiar out of the three at least, but I'm happy to try other editors from now as well.
---
+>> If I'd choose one, it may be vi/vim. For the past experience, that is the one I have been using so must be the most familiar out of the three at least, but I'm happy to try other editors from now as well. Being completely honest, choosing vi editor at the beginning came from an episode, where it seemed really complicated when I saw one of my friends using emacs at first, and then saw another friend later on using vi, which for some weird reason looked really fancy at that time. Oddly enough, still as of now there is a very small part of me wanting to become one-who-use-emacs-really-well, too.
 
 ### Q3. Graphical Editor
 
