@@ -76,19 +76,20 @@ print("This file was created by Reshama")
 3.  Create a file called `egg.py` using **emacs**, add a couple of lines of code, save and exit.
 
 Upload these 3 files to the [`editors`](editors/) folder.  
+> Files added to the folder `editors` folder.
 
 ### Q2. Terminal Editor
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> If I'd choose one, it may be vi/vim. For the past experience, that is the one I have been using so must be the most familiar out of the three at least, but I'm happy to try other editors from now as well.
 --
 
 ### Q3. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Especially when it comes to using python, I've been using the sublime editor quite frequently for the past experience. This editor is fairly simple and straightforwardly formatted to use even for beginners. It digests many languages if needed, and the editor is styled-in for specific langauge by using command-shift-'p' shortcut and typing the language of interest.  
+I haven't yet seen much to be able to customize the editor other than switching around with the keyword-highlight color options. I'll look into customizing it more. 
 
  
