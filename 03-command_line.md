@@ -70,7 +70,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> "xargs" command runs certain program or command on all files specified in the input.
+> So usually it is used with "find" command for an easy example.
+> find . -name '.pdf' | xargs ls -al would list the items specified from the find command,
+> which are all the pdf files with .pdf extension of the search.
 
  
 
