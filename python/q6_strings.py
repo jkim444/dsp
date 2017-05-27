@@ -18,7 +18,13 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+
+    #raise NotImplementedError
+
+    if count < 10:
+        return ("Number of donuts: %d" % count)
+    else:
+        return ("Number of donuts: many")
 
 
 def both_ends(s):
@@ -37,8 +43,15 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    
+    #raise NotImplementedError
 
+    if len(s) < 2:
+        return ''
+    else:
+        first = s[:2]
+        end = s[-2:]
+        return (first + end)
 
 def fix_start(s):
     """
@@ -56,8 +69,19 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
+    temp = []
+    first = s[0]
+    for x in s:
+        if x == first:
+            temp.append('*')
+        else:
+            temp.append(x)
+
+    temp2 = first + ''.join(temp[1:])
+
+    return temp2
 
 def mix_up(a, b):
     """
@@ -74,8 +98,15 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
+    first1 = a[:2]
+    first2 = b[:2]
+    temp = []
+    temp.append(first2 + a[2:])
+    temp.append(first1 + b[2:])
+
+    return ' '.join(temp)
 
 def verbing(s):
     """
@@ -91,8 +122,15 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
+    if len(s) < 3:
+        return s
+    else:
+        if s[-3:] == 'ing':
+            return s + 'ly'
+        else:
+            return s + 'ing'
 
 def not_bad(s):
     """
@@ -111,7 +149,15 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    #raise NotImplementedError
+
+    not_index = s.find('not')
+    bad_index = s.find('bad')
+
+    if not_index < bad_index:
+        return s.replace(s[not_index:bad_index+3], 'good')
+    else:
+        return s
 
 
 def front_back(a, b):
@@ -130,4 +176,15 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    #raise NotImplementedError
+
+    def halfing(x):
+        if len(x) % 2 == 0:
+            return x[:(len(x)/2)], x[len(x)/2:]
+        else:
+            return x[:(len(x)+1)/2], x[(len(x)+1)/2:]
+
+    temp_a1, temp_a2 = halfing(a)
+    temp_b1, temp_b2 = halfing(b)
+
+    return temp_a1 + temp_b1 + temp_a2 + temp_b2
