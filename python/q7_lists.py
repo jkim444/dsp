@@ -126,4 +126,10 @@ def linear_merge(list1, list2):
     """
     #raise NotImplementedError
 
-    return sorted(list1 + list2)
+    temp = []
+    while list1 and list2:
+        if list1[0] < list2[0]:
+            temp.append(list1.pop(0))
+        else:
+            temp.append(list2.pop(0))
+    return temp + list1 + list2
