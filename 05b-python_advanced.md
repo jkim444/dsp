@@ -180,7 +180,7 @@ Print the first 3 key and value pairs of the dictionary:
  ('Rui', 'Xiao'),
  ('Dawei', 'Xie'),
  ('Sharon', 'Xiangwen', 'Xie'),
- ('Wei', '(Peter)', 'Yang') . 
+ ('Wei', '(Peter)', 'Yang')   
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 >> Code added
