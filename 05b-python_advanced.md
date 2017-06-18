@@ -144,9 +144,43 @@ Print the first 3 key and value pairs of the dictionary:
  
 #### Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> ('Scarlett', 'L.', 'Bellamy') [' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']  
->> ('Warren', 'B.', 'Bilker') ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']  
->> ('Matthew', 'W', 'Bryan') [' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']  
+>> ('Scarlett', 'L.', 'Bellamy'),
+ ('Warren', 'B.', 'Bilker'),
+ ('Matthew', 'W', 'Bryan'),
+ ('Jinbo', 'Chen'),
+ ('Jonas', 'H.', 'Ellenberg'),
+ ('Susan', 'S', 'Ellenberg'),
+ ('Rui', 'Feng'),
+ ('Benjamin', 'C.', 'French'),
+ ('Phyllis', 'A.', 'Gimotty'),
+ ('Wensheng', 'Guo'),
+ ('Yenchih', 'Hsu'),
+ ('Rebecca', 'A', 'Hubbard'),
+ ('Wei-Ting', 'Hwang'),
+ ('Marshall', 'M.', 'Joffe'),
+ ('J.', 'Richard', 'Landis'),
+ ('Hongzhe', 'Li'),
+ ('Mingyao', 'Li'),
+ ('Yimei', 'Li'),
+ ('A.', 'Russell', 'Localio'),
+ ('Nandita', 'Mitra'),
+ ('Knashawn', 'H.', 'Morales'),
+ ('Kathleen', 'Joy', 'Propert'),
+ ('Mary', 'E.', 'Putt'),
+ ('Sarah', 'Jane', 'Ratcliffe'),
+ ('Michelle', 'Elana', 'Ross'),
+ ('Jason', 'A.', 'Roy'),
+ ('Mary', 'D.', 'Sammel'),
+ ('Pamela', 'Ann', 'Shaw'),
+ ('Russell', 'Takeshi', 'Shinohara'),
+ ('Haochang', 'Shou'),
+ ('Justine', 'Shults'),
+ ('Alisa', 'Jane', 'Stephens'),
+ ('Andrea', 'Beth', 'Troxel'),
+ ('Rui', 'Xiao'),
+ ('Dawei', 'Xie'),
+ ('Sharon', 'Xiangwen', 'Xie'),
+ ('Wei', '(Peter)', 'Yang') . 
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 >> Code added
