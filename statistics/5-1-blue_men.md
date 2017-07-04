@@ -15,4 +15,3 @@ print test.cdf(178 - 7.7)  
   
 print test.cdf(185.4) - test.cdf(177.8)  
 // This yields 0.342... approximately 34%  
-
