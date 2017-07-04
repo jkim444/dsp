@@ -11,10 +11,10 @@ def CohenEffectSize(g1, g2):  
   return d . 
 
 CohenEffectSize(firsts.prglngth, others.prglngth) . 
-# = 0.028879044654449883 . 
+// = 0.028879044654449883 . 
   
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb) . 
-# = -0.088672927072602 . 
+// = -0.088672927072602 . 
 
 >> It explains earlier that 0.029 is quite small effect size for the pregnancy length.  
 >> The Cohen's d value for the total weight is quite small as well and negative number.  
