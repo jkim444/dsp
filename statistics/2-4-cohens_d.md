@@ -1,7 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE . 
-def CohenEffectSize(g1, g2):  
+def CohenEffectSize(g1, g2): .
   diff = g1.mean() - g2.mean() . 
   var1 = g1.var() . 
   var2 = g2.var() . 
